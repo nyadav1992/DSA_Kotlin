@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass.set("com.nyinnovations.dsa.TestKt")
+    mainClass.set("com.nyinnovations.dsa.PalindromeStringKt")
 }
 
 kotlin {
