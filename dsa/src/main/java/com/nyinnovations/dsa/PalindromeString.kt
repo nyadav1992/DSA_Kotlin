@@ -31,7 +31,7 @@ fun main() {
  * Downside: We use extra memory to store the reversed string,
  * which is unnecessary since we don't actually need the full reversed copy.
  */
-private fun isBruteForcePalindrome(s: String): Boolean {
+internal fun isBruteForcePalindrome(s: String): Boolean {
     // Edge case: empty string or single character is always a palindrome
     if (s.length <= 1) return true
 
@@ -65,7 +65,7 @@ private fun isBruteForcePalindrome(s: String): Boolean {
  * Why is this better? We skip unnecessary work — we only check half the string,
  * and we bail out early the moment we find a mismatch.
  */
-private fun isOptimizedPalindrome(s: String): Boolean {
+internal fun isOptimizedPalindrome(s: String): Boolean {
     // Edge case: empty string or single character is always a palindrome
     if (s.length <= 1) return true
 
@@ -85,4 +85,6 @@ private fun isOptimizedPalindrome(s: String): Boolean {
     // All character pairs matched — it's a palindrome!
     return true
 }
+
+
 
