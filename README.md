@@ -20,6 +20,12 @@ Every file follows the same pattern:
 
 ## Problems solved
 
+### Arrays
+
+| # | Problem | Brute Force | Optimized | File |
+|---|---------|-------------|-----------|------|
+| 1 | Contains Duplicate | Nested loops — O(n²) time, O(1) space | HashSet — O(n) time, O(n) space | [`ContainsDuplicate.kt`](dsa/src/main/java/com/nyinnovations/dsa/ContainsDuplicate.kt) |
+
 ### Strings
 
 | # | Problem | Brute Force | Optimized | File |
@@ -60,4 +66,5 @@ dsa/
 ## Progress
 
 - Week 1 — Palindrome String
+- Week 2 — Contains Duplicate
 - ... (more coming)
