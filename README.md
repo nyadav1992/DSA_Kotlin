@@ -12,9 +12,10 @@ Every file follows the same pattern:
 
 - **Brute force function** — the obvious first approach, usually simpler but less efficient
 - **Optimized function** — the better solution with explanation of what changed and why
-- **KDoc comments** on both functions with the approach, time complexity, space complexity, and tradeoffs
-- **`main()`** that runs both on the same test cases so you can see the outputs side by side
-- **Unit tests** in `test/` for both approaches
+- **Alternative brute force function** — an additional brute force implementation for comparison
+- **KDoc comments** on all functions with the approach, time complexity, space complexity, and tradeoffs
+- **`main()`** that runs all approaches on the same test cases so you can see the outputs side by side
+- **Unit tests** in `test/` for all approaches
 
 ---
 
@@ -31,6 +32,8 @@ Every file follows the same pattern:
 | # | Problem | Brute Force | Optimized | File |
 |---|---------|-------------|-----------|------|
 | 1 | Palindrome String | Reverse & compare — O(n) time, O(n) space | Two pointers — O(n) time, O(1) space | [`PalindromeString.kt`](dsa/src/main/java/com/nyinnovations/dsa/PalindromeString.kt) |
+| 2 | Two Sum | Nested loops — O(n²) time, O(1) space | HashMap — O(n) time, O(n) space | [`TwoSum.kt`](dsa/src/main/java/com/nyinnovations/dsa/TwoSum.kt) |
+| 3 | Anagram Check | Sort and compare — O(n log n) time, O(n) space | Frequency count — O(n) time, O(1) space | [`AnagramCheck.kt`](dsa/src/main/java/com/nyinnovations/dsa/AnagramCheck.kt) |
 
 ---
 
@@ -47,8 +50,6 @@ It's easy to just memorise the optimal solution and move on. But writing the bru
 For example, with palindrome checking:
 - The brute force reverses the whole string and compares — it works, but you're creating an entire copy of the string in memory for no real reason.
 - The two-pointer approach does the same check using just two index variables, and bails out the moment it finds a mismatch instead of always checking the full string.
-
-That kind of thinking is what I'm trying to build here.
 
 ---
 
@@ -67,4 +68,17 @@ dsa/
 
 - Week 1 — Palindrome String
 - Week 2 — Contains Duplicate
-- ... (more coming)
+- Week 3 — Two Sum
+- Week 4 — Anagram Check
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have a solution to a new problem or an improvement to an existing one, feel free to open a Pull Request (PR). Suggestions, bug fixes, and optimizations are also appreciated. Please ensure that:
+
+- Your code follows the structure outlined above.
+- You include both brute force and optimized solutions, if applicable.
+- You provide clear comments explaining your approach and tradeoffs.
+
+Let's make this repository a great resource for learning and practicing DSA!
