@@ -34,6 +34,7 @@ Every file follows the same pattern:
 | 1 | Palindrome String | Reverse & compare — O(n) time, O(n) space | Two pointers — O(n) time, O(1) space | [`PalindromeString.kt`](dsa/src/main/java/com/nyinnovations/dsa/PalindromeString.kt) |
 | 2 | Two Sum | Nested loops — O(n²) time, O(1) space | HashMap — O(n) time, O(n) space | [`TwoSum.kt`](dsa/src/main/java/com/nyinnovations/dsa/TwoSum.kt) |
 | 3 | Anagram Check | Sort and compare — O(n log n) time, O(n) space | Frequency count — O(n) time, O(1) space | [`AnagramCheck.kt`](dsa/src/main/java/com/nyinnovations/dsa/AnagramCheck.kt) |
+| 4 | Reverse String | Character array reversal — O(n) time, O(n) space | StringBuilder — O(n) time, O(n) space | [`ReverseString.kt`](dsa/src/main/java/com/nyinnovations/dsa/ReverseString.kt) |
 
 ---
 
@@ -82,3 +83,9 @@ Contributions are welcome! If you have a solution to a new problem or an improve
 - You provide clear comments explaining your approach and tradeoffs.
 
 Let's make this repository a great resource for learning and practicing DSA!
+
+---
+
+## Open for Contributions
+
+Feel free to push your PR for any problem or suggestion. Let's collaborate and grow together!
