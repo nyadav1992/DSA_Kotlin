@@ -35,6 +35,7 @@ Every file follows the same pattern:
 | 2 | Two Sum | Nested loops — O(n²) time, O(1) space | HashMap — O(n) time, O(n) space | [`TwoSum.kt`](dsa/src/main/java/com/nyinnovations/dsa/TwoSum.kt) |
 | 3 | Anagram Check | Sort and compare — O(n log n) time, O(n) space | Frequency count — O(n) time, O(1) space | [`AnagramCheck.kt`](dsa/src/main/java/com/nyinnovations/dsa/AnagramCheck.kt) |
 | 4 | Reverse String | Character array reversal — O(n) time, O(n) space | StringBuilder — O(n) time, O(n) space | [`ReverseString.kt`](dsa/src/main/java/com/nyinnovations/dsa/ReverseString.kt) |
+| 5 | Longest Substring Without Repeating Characters | Brute force — O(n^3) time, O(n) space | Sliding window — O(n) time, O(n) space | [`LongestSubstringWithoutRepeatingCharacters.kt`](dsa/src/main/java/com/nyinnovations/dsa/LongestSubstringWithoutRepeatingCharacters.kt) |
 
 ---
 
