@@ -36,6 +36,7 @@ Every file follows the same pattern:
 | 3 | Anagram Check | Sort and compare — O(n log n) time, O(n) space | Frequency count — O(n) time, O(1) space | [`AnagramCheck.kt`](dsa/src/main/java/com/nyinnovations/dsa/AnagramCheck.kt) |
 | 4 | Reverse String | Character array reversal — O(n) time, O(n) space | StringBuilder — O(n) time, O(n) space | [`ReverseString.kt`](dsa/src/main/java/com/nyinnovations/dsa/ReverseString.kt) |
 | 5 | Longest Substring Without Repeating Characters | Brute force — O(n^3) time, O(n) space | Sliding window — O(n) time, O(n) space | [`LongestSubstringWithoutRepeatingCharacters.kt`](dsa/src/main/java/com/nyinnovations/dsa/LongestSubstringWithoutRepeatingCharacters.kt) |
+| 6 | Find the Largest Element in Array | Brute force — O(n^2) time, O(1) space | Iterative comparison — O(n) time, O(1) space | [`FindLargestNumber.kt`](dsa/src/main/java/com/nyinnovations/dsa/FindLargestNumber.kt) |
 
 ---
 
