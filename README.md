@@ -28,6 +28,7 @@ Every file follows the same pattern:
 | 1 | Contains Duplicate | Nested loops — O(n²) time, O(1) space | HashSet — O(n) time, O(n) space | [`ContainsDuplicate.kt`](dsa/src/main/java/com/nyinnovations/dsa/ContainsDuplicate.kt) |
 | 6 | Find the Largest Element in Array | Brute force — O(n^2) time, O(1) space | Iterative comparison — O(n) time, O(1) space | [`FindLargestNumber.kt`](dsa/src/main/java/com/nyinnovations/dsa/FindLargestNumber.kt) |
 | 7 | Find Second Largest Element in Array | Brute force — O(n^2) time, O(1) space | Iterative comparison — O(n) time, O(1) space | [`SecondLargestNumber.kt`](dsa/src/main/java/com/nyinnovations/dsa/SecondLargestNumber.kt) |
+| 8 | Move All Zeros to End | Temporary array — O(n) time, O(n) space | Two pointers — O(n) time, O(1) space | [`MoveAllZerosToEnd.kt`](dsa/src/main/java/com/nyinnovations/dsa/MoveAllZerosToEnd.kt) |
 
 ### Strings
 
@@ -74,6 +75,7 @@ dsa/
 - Week 2 — Contains Duplicate
 - Week 3 — Two Sum
 - Week 4 — Anagram Check
+- Week 5 — Move All Zeros to End
 
 ---
 
