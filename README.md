@@ -29,6 +29,7 @@ Every file follows the same pattern:
 | 6 | Find the Largest Element in Array | Brute force — O(n^2) time, O(1) space | Iterative comparison — O(n) time, O(1) space | [`FindLargestNumber.kt`](dsa/src/main/java/com/nyinnovations/dsa/FindLargestNumber.kt) |
 | 7 | Find Second Largest Element in Array | Brute force — O(n^2) time, O(1) space | Iterative comparison — O(n) time, O(1) space | [`SecondLargestNumber.kt`](dsa/src/main/java/com/nyinnovations/dsa/SecondLargestNumber.kt) |
 | 8 | Move All Zeros to End | Temporary array — O(n) time, O(n) space | Two pointers — O(n) time, O(1) space | [`MoveAllZerosToEnd.kt`](dsa/src/main/java/com/nyinnovations/dsa/MoveAllZerosToEnd.kt) |
+| 9 | Binary Search | Linear search — O(n) time, O(1) space | Binary search — O(log n) time, O(1) space | [`BinarySearch.kt`](dsa/src/main/java/com/nyinnovations/dsa/BinarySearch.kt) |
 
 ### Strings
 
@@ -76,6 +77,7 @@ dsa/
 - Week 3 — Two Sum
 - Week 4 — Anagram Check
 - Week 5 — Move All Zeros to End
+- Week 6 — Binary Search
 
 ---
 
